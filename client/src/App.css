@@ -1,0 +1,78 @@
+
+
+.allWrapper{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #9a9ac9;
+  background-image: url('bg.jpg');
+}
+
+.middle{
+  background-color: rgba(255, 255, 255,0.5);
+  height: 90%;
+  width: 40%;
+  justify-content: center;
+  border-radius: 10%;
+  border: 4px solid rgb(0, 98, 255);
+}
+
+.login{
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  
+}
+
+::placeholder{
+  color: rgb(56, 56, 56);
+  opacity: 1;
+}
+
+.field{
+background-color: #C0C0FF;
+border: 3px solid transparent;
+border-bottom: 2px solid black;
+border-radius: 15px;
+padding: 15px 15px 15px 15px;
+font-size: 24px;
+font-family: Verdana;
+justify-content: center;
+
+}
+.un{
+  background: url(userpic.png) no-repeat scroll 7px 7px;
+padding-left:50px;
+}
+
+.pw{
+  background: url(pw.png) no-repeat scroll 7px 7px;
+padding-left:50px;
+}
+
+.button{
+  height: 25px;
+  background-color: #C0C0FF;
+  border: 1px solid #000080;
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #2441ff 49%, #e45dff 80%, #3f43ff 100%);
+}
+
+.button:hover {
+  animation:slidebg 100s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:1000vw;
+  }
+}
+
+.title{
+  justify-content: center;
+  display: flex;
+}
